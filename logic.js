@@ -20,7 +20,7 @@ let isSunk = false;
          guesses = guesses++;
      }
 
-     if (guess == loc1) || (guess == loc2) || (guess == loc3) {
+     if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
          hits = hits ++;
      };
     };
