@@ -13,7 +13,7 @@ let isSunk = false;
  while (isSunk == false) {
      guess = prompt("Choose a target (enter a whole number, 1-7) !!!");
 
-     if ((guess < 1) || (guess > 7)) {
+     if (guess < 1 || guess > 7) {
          alert ("Try again! This time, please follow the directions!");
      }
      else {
