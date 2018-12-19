@@ -1,4 +1,10 @@
+let loc1;
+let loc2;
+let loc3;
 
+let guess;
+
+let hits = 0;
 
 // ================console.log silliness (below)================
 
