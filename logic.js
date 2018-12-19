@@ -17,7 +17,7 @@ let isSunk = false;
          alert ("Try again! This time, please follow the directions!");
      }
      else {
-         
+         guesses = guesses++;
      }
     };
 
