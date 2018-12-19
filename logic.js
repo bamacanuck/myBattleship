@@ -10,8 +10,9 @@ let guesses = 0;
 
 let isSunk = false;
 
- while (isSunk = false) {
-     prompt("Choose a target (enter a whole number, 1-7) !!!");
+ while (isSunk == false) {
+     guess = prompt("Choose a target (enter a whole number, 1-7) !!!");
+     
     };
 
 
