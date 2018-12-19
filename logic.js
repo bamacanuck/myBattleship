@@ -1,6 +1,6 @@
-let loc1;
-let loc2;
-let loc3;
+let loc1 = 3;
+let loc2 = 4;
+let loc3 = 5;
 
 let guess;
 
