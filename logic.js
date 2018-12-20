@@ -9,6 +9,8 @@ let loc3 = 5;
 
 let guess;
 
+let numsGuessed = [];
+
 let hits = 0;
 
 let guesses = 0;
@@ -20,6 +22,11 @@ let isSunk = false;
 
      if (guess < 1 || guess > 7) {
          alert ("Try again! This time, please follow the directions!");
+     }
+     else if {
+         guess == 
+         // loop over numsGuessed, make sure new guess hasn't already
+         // been tried
      }
      else {
          guesses = guesses + 1;
