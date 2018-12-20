@@ -1,3 +1,8 @@
+// works, roughly... with the considerable
+// problem that the same guess can be
+// repeated to satisfy the hit-count
+// requirement
+
 let loc1 = 3;
 let loc2 = 4;
 let loc3 = 5;
@@ -17,12 +22,17 @@ let isSunk = false;
          alert ("Try again! This time, please follow the directions!");
      }
      else {
-         guesses = guesses++;
+         guesses = guesses + 1;
      }
 
      if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
-         hits = hits ++;
-     };
+         hits = hits + 1;
+     }
+
+     if (hits == 3) {
+         isSunk = true;
+         alert ("YOU WIN!");
+     }
     };
 
 
