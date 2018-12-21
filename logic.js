@@ -22,16 +22,18 @@ let isSunk = false;
 
      if (guess < 1 || guess > 7) {
          alert ("Try again! This time, please follow the directions!");
-     }
-     if (numsGuessed.includes(guess)) {
+        }
+     else if (numsGuessed.includes(guess)) {
          alert ("Try again! This time, try a new guess!");
-     }
-    
-     guesses = guesses + 1;
+        }
+     else {
+         guesses = guesses + 1;
+         numsGuessed.push(guess);
+        };
+
 
      if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
          hits = hits + 1;
-         numsGuessed.push(guess);
      }
 
      if (hits == 3) {
