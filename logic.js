@@ -23,10 +23,8 @@ let isSunk = false;
      if (guess < 1 || guess > 7) {
          alert ("Try again! This time, please follow the directions!");
      }
-     else if {
-         guess == 
-         // loop over numsGuessed, make sure new guess hasn't already
-         // been tried
+     else if numsGuessed.includes(guess) {
+         alert ("Try again! This time, try a new guess!");
      }
     
      guesses = guesses + 1;
