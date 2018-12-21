@@ -28,12 +28,12 @@ let isSunk = false;
          // loop over numsGuessed, make sure new guess hasn't already
          // been tried
      }
-     else {
-         guesses = guesses + 1;
-     }
+    
+     guesses = guesses + 1;
 
      if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
          hits = hits + 1;
+         numsGuessed.push(guess);
      }
 
      if (hits == 3) {
