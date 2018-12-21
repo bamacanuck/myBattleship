@@ -29,17 +29,18 @@ let isSunk = false;
      else {
          guesses = guesses + 1;
          numsGuessed.push(guess);
-        };
 
-
-     if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
-         hits = hits + 1;
-     }
-
-     if (hits == 3) {
-         isSunk = true;
-         alert ("YOU WIN!");
-     }
+            if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
+                hits = hits + 1;
+                numsGuessed.push(guess);
+            }
+    
+            if (hits == 3) {
+                isSunk = true;
+                alert ("YOU WIN!");
+                console.log("total valid guesses tried: " + guesses);
+            }
+        }
     };
 
 
