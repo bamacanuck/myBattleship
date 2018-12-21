@@ -43,7 +43,6 @@ let isSunk = false;
     };
 
 
-
 // ================console.log silliness (below)================
 
 // console.log("hey,");
