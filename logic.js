@@ -32,7 +32,6 @@ let isSunk = false;
 
             if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
                 hits = hits + 1;
-                numsGuessed.push(guess);
             }
     
             if (hits == 3) {
