@@ -1,5 +1,5 @@
-// works, roughly... with the considerable
-// problem that the same guess can be
+// works... did solve the considerable
+// problem of allowing the same guess to be
 // repeated to satisfy the hit-count
 // requirement
 
