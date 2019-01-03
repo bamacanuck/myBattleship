@@ -4,7 +4,9 @@
 // requirement
 
 let loc1 = 3;
+
 let loc2 = 4;
+
 let loc3 = 5;
 
 let guess;
