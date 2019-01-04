@@ -6,7 +6,7 @@
 
 let loc1 = 3;
 let loc2 = (loc1 + 1);
-let loc3 = (loc1 + 2);
+let loc3 = (loc2 + 1); // or (loc1 + 2)
 
 let guess;
 
