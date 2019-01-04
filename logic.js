@@ -31,6 +31,10 @@ let isSunk = false;
 
             if ((guess == loc1) || (guess == loc2) || (guess == loc3)) {
                 hits = hits + 1;
+                alert("HIT");
+            }
+            else{
+                alert("MISS");
             }
     
             if (hits == 3) {
