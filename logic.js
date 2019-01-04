@@ -17,7 +17,7 @@ let guesses = 0;
 let isSunk = false;
 
  while (isSunk == false) {
-     guess = prompt("Choose a target (enter a whole number, 1-7) !!!");
+     guess = prompt("Choose a target (enter 1, 2, 3, 4, 5, 6, or 7) !!!");
 
      if (guess < 1 || guess > 7) {
          alert ("Try again! This time, please follow the directions!");
@@ -36,10 +36,11 @@ let isSunk = false;
             if (hits == 3) {
                 isSunk = true;
                 alert ("YOU WIN!");
-                console.log("total valid guesses tried: " + guesses);
             }
         }
-    };
+    }
+
+    alert("total valid guesses tried: " + guesses);
 
 
 // ================console.log silliness (below)================
