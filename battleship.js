@@ -2,6 +2,8 @@
 // same guess to be repeated to
 // satisfy the hit-count requirement
 
+// now need to generate random ship placement
+
 let loc1 = 3;
 let loc2 = 4;
 let loc3 = 5;
