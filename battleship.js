@@ -4,7 +4,9 @@
 
 // now need to generate random ship placement
 
-let loc1 = 3;
+let randLoc1 = Math.floor(Math.random() * 5) + 1;
+
+let loc1 = randLoc1;
 let loc2 = (loc1 + 1);
 let loc3 = (loc2 + 1); // or (loc1 + 2)
 
