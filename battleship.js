@@ -12,6 +12,8 @@ let numsGuessed = [];
 
 let hits = 0;
 
+let misses = 0;
+
 let guesses = 0;
 
 let isSunk = false;
@@ -34,6 +36,7 @@ let isSunk = false;
                 alert("HIT");
             }
             else{
+                misses = misses + 1;
                 alert("MISS");
             }
     
@@ -45,6 +48,7 @@ let isSunk = false;
     }
 
     alert("total valid guesses tried: " + guesses);
+    alert("hits & misses: " + hits + " & " + misses);
 
 
 // ================console.log silliness (below)================
