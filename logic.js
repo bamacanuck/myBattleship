@@ -1,7 +1,6 @@
-// works, now... did solve the considerable
-// problem of allowing the same guess to be
-// repeated to satisfy the hit-count
-// requirement
+// solved the problem of allowing the
+// same guess to be repeated to
+// satisfy the hit-count requirement
 
 let loc1 = 3;
 let loc2 = 4;
