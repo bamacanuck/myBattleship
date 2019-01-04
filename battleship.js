@@ -49,6 +49,7 @@ let isSunk = false;
 
     alert("total valid guesses tried: " + guesses);
     alert("hits & misses: " + hits + " & " + misses);
+    alert("valid-try hit rate: " + (100 * (3/guesses)) + "%");
 
 
 // ================console.log silliness (below)================
