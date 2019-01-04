@@ -5,8 +5,8 @@
 // now need to generate random ship placement
 
 let loc1 = 3;
-let loc2 = 4;
-let loc3 = 5;
+let loc2 = (loc1 + 1);
+let loc3 = (loc1 + 2);
 
 let guess;
 
