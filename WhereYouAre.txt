@@ -1,3 +1,5 @@
 location 1328 of 11391,
 
-Head First JavaScript
+Head First JavaScript...
+
+considerable review is advisable, too
