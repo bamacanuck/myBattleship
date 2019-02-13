@@ -52,8 +52,8 @@ let isSunk = false;
     }
 
     alert("total valid guesses tried: " + guesses);
-    alert("hits & misses: " + hits + " & " + misses);
-    alert("valid-try hit rate: " + (100 * (3/guesses)) + "%");
+    alert("hits to misses: " + hits + " to " + misses);
+    alert("valid-try hit rate: " + (100 * (3/guesses)).toFixed(2) + "%");
 
 
 // ================console.log silliness (below)================
