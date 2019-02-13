@@ -2,6 +2,4 @@ location 1328 of 11391,
 
 Head First JavaScript...
 
-AND
-
-considerable review is advisable, too
+(AND considerable review is advisable, too)
