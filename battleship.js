@@ -5,7 +5,7 @@ let randLoc1 = Math.floor(Math.random() * 5) + 1;
 
 let loc1 = randLoc1;
 let loc2 = (loc1 + 1);
-let loc3 = (loc2 + 1); // or (loc1 + 2)
+let loc3 = (loc2 + 1); // or, alternately, (loc1 + 2)
 
 let guess;
 
