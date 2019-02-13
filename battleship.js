@@ -1,8 +1,5 @@
-// solved the problem of allowing the
-// same guess to be repeated to
-// satisfy the hit-count requirement
-
-// now need to generate random ship placement
+// next major logic task:
+// generating random ship placement
 
 let randLoc1 = Math.floor(Math.random() * 5) + 1;
 
