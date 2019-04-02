@@ -1,7 +1,7 @@
 // next major logic task:
 // generating random ship placement
 
-let randLoc1 = Math.floor(Math.random() * 5) + 1;
+let randLoc1 = (Math.floor(Math.random() * 5)) + 1;
 
 let loc1 = randLoc1;
 let loc2 = (loc1 + 1);
